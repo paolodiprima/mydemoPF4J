@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.monitor.plugin</groupId>
+    <artifactId>plugins</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>plugin1</artifactId>
+  <name>plugin1Name</name>
+      <properties>
+        <plugin.id>id-plugin1</plugin.id>
+        <plugin.class>plugin1.editing.Plugin1</plugin.class>
+        <plugin.version>1.0-SNAPSHOT</plugin.version>
+        <plugin.provider/>
+        <plugin.dependencies/>
+    </properties>
+  
+</project>
